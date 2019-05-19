@@ -60,6 +60,7 @@ input{
   padding: 27px 24px;
   border-radius: 5px;
   border: 1px solid #7E8085;
+  width: 100%;
 }
 
 input:placeholder{

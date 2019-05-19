@@ -345,7 +345,7 @@ header nav ul li {
   margin-bottom: 64px;
 }
 
-#section6 .item{
+#section6 .item1{
   background: #FFFFFF;
   border: 1px solid #E7EAEE;
   box-shadow: 0px 2px 4px rgba(44, 46, 48, 0.0747283);
@@ -354,21 +354,25 @@ header nav ul li {
   margin-bottom: 24px;
 }
 
-#section6 .item .text{
+#section6 .item1 .text{
   margin-bottom: 36px;
 }
 
-#section6 .item .name{
+#section6 .item1 .name{
   color: #2C2E30;
   font: 16px "SF-Bold";
   line-height: 32px;
 }
 
-#section6 .item .photo{
+#section6 .item1 .photo{
   border-radius: 100%;
   background: url('../imgs/photo.png') center no-repeat;
   background-size: cover;
   margin: 0px 16px;
+}
+
+#section7{
+  margin-bottom: 72px;
 }
 
 #section7 h2{
@@ -395,4 +399,44 @@ header nav ul li {
   font: 24px "SF-Bold";
   color: #2F5BEA;
   text-decoration: none;
+}
+
+#sectionForm{
+  padding: 100px 0;
+    background: url('../imgs/pattern.svg') center no-repeat;
+    width: 100%;
+  background-color: #2F5BEA;
+
+}
+
+#sectionForm h3{
+  color: #fff;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+#sectionForm p{
+  color: #fff;
+  margin: 24px 0 55px 0;
+  text-align: center;
+}
+
+#sectionForm p a{
+  font-family: "SF-Bold";
+  text-decoration: underline;
+  color: #fff;
+}
+
+#sectionForm input{
+  margin-bottom: 24px;
+}
+
+#sectionForm button{
+  background-color: #2C2E30;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#sectionForm .center{
+  text-align: center;
 }
