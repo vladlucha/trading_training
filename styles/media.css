@@ -45,10 +45,12 @@ header nav ul li a { display: block;  padding: .425rem 0rem;
      color: #2C2E30;
      font: 24px "SF-Bold";
      text-align: center;
-
-       line-height: 31px;
-
+    line-height: 31px;
    }
+
+   .gray-bg{
+     margin-bottom: 36px;
+ }
 
    .line{
      width: 100%;

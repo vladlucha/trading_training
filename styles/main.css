@@ -292,6 +292,10 @@ header nav ul li {
   margin-bottom: 11px;
 }
 
+#section5 .item{
+  margin-bottom: 36px;
+}
+
 #section5 .item .arrow-right{
   background: url('../imgs/arrow.svg') center no-repeat;
   width: 32px;
@@ -322,8 +326,6 @@ header nav ul li {
   opacity: 0.5;
 }
 
-
-
 #section5 .text{
   text-align: center;
 }
@@ -337,4 +339,60 @@ header nav ul li {
   color: #2C2E30;
   font: 24px "SF-Bold";
     line-height: 54px;
+}
+
+#section6{
+  margin-bottom: 64px;
+}
+
+#section6 .item{
+  background: #FFFFFF;
+  border: 1px solid #E7EAEE;
+  box-shadow: 0px 2px 4px rgba(44, 46, 48, 0.0747283);
+  border-radius: 5px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+#section6 .item .text{
+  margin-bottom: 36px;
+}
+
+#section6 .item .name{
+  color: #2C2E30;
+  font: 16px "SF-Bold";
+  line-height: 32px;
+}
+
+#section6 .item .photo{
+  border-radius: 100%;
+  background: url('../imgs/photo.png') center no-repeat;
+  background-size: cover;
+  margin: 0px 16px;
+}
+
+#section7 h2{
+  margin-bottom: 36px;
+}
+
+#section7 p{
+  margin-bottom: 16px;
+}
+
+#section7 .img-4{
+  background: url('../imgs/img-4.svg') center no-repeat;
+  width: 412px;
+  height: 523px;
+  margin-top: -84px;
+}
+
+#section7 .photo2{
+  height: 513px;
+  background: url('../imgs/photo2.svg') center no-repeat;
+}
+
+#section7 a{
+  font: 24px "SF-Bold";
+  color: #2F5BEA;
+  text-decoration: none;
 }
