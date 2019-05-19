@@ -26,6 +26,10 @@ h4{
   line-height: 34px;
 }
 
+.title{
+  margin-bottom: 48px;
+}
+
 /*button*/
 button{
   padding: 18px 29px;
