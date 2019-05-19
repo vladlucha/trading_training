@@ -179,17 +179,17 @@ header nav ul li {
   margin-bottom: 24px;
 }
 
-#section3 .item{
+#section3 .item, #section4 .item{
   margin-bottom: 36px;
 }
 
-#section3 .itemTitle{
+#section3 .itemTitle, #section4 .itemTitle{
   font:24px "SF-Bold";
   color: #2F5BEA;
   margin: 0 0 24px 16px;
 }
 
-#section3 .icon{
+#section3 .icon, #section4 .icon{
   margin: 0 0 8px 16px;
 }
 
@@ -215,4 +215,38 @@ header nav ul li {
 
 #section3 .icon6{
   background: url('../imgs/icon6.svg') center no-repeat;
+}
+
+/*section4*/
+
+#section4{
+  padding-top: 100px;
+  background-color: #F6F8F9;
+}
+
+#section4 .title h3{
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+#section4 .photo{
+  height: 618px;
+  background: url('../imgs/photo.png') center no-repeat;
+  margin-bottom: 36px;
+}
+
+#section4 .icon7{
+  background: url('../imgs/icon7.svg') center no-repeat;
+}
+
+#section4 .icon8{
+  background: url('../imgs/icon8.svg') center no-repeat;
+}
+
+#section4 .icon9{
+  background: url('../imgs/icon9.svg') center no-repeat;
+}
+
+#section4 .icon10{
+  background: url('../imgs/icon10.svg') center no-repeat;
 }
