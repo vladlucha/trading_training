@@ -1,8 +1,6 @@
 /*general*/
 
-button{
-  width: 100%;
-}
+
 
 
 /*header*/
@@ -22,6 +20,14 @@ header nav ul li a { display: block;  padding: .425rem 0rem;
 }
 }
  @media (max-width: 1025px) {
+
+   button{
+     width: 100%;
+   }
+
+   #section2{
+     margin-top: 300px;
+   }
 
 .menu-left a {
   line-height: 32px;
@@ -102,4 +108,8 @@ ul.menu-left.collapse { max-height: 25em !important; }
 
 #section1 .info, #section1 .video{
   margin: 36px 0;
+}
+
+
+
 }

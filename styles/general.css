@@ -1,6 +1,7 @@
 body{
   font: 100% "SF-Regular";
   color: #7E8085;
+  line-height: 28px;
 }
 
 /*typograpgy*/
@@ -72,4 +73,14 @@ input:focus{
 
 .vertical-align{
   align-items: center;
+}
+
+/*line*/
+
+.line{
+  width: 100%;
+  height: 2px;
+  background-color: #DCDCDC;
+  border-radius: 2px;
+  margin-bottom: 100px;
 }

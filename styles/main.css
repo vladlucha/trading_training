@@ -92,7 +92,7 @@ header nav ul li {
   margin-left: 0;
 }
 
-/*bg1*/
+/*section1*/
 
 #section1{
     margin-top: 71px;
@@ -122,4 +122,23 @@ header nav ul li {
   background-color: red;
   border-radius: 16px;
 
+}
+
+/*section2*/
+
+#section2{
+  margin: -50px 0 100px 0;
+}
+
+#section2 .img{
+  height: 608px;
+  background: url('../imgs/img-2.svg') center no-repeat;
+}
+
+#section2 h2{
+  margin-bottom: 24px;
+}
+
+#section2 p{
+  margin-bottom: 16px;
 }
