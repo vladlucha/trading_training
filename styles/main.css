@@ -221,7 +221,17 @@ header nav ul li {
 
 #section4{
   padding-top: 100px;
-  background-color: #F6F8F9;
+  position: relative;
+  margin-bottom: 90px;
+}
+
+#section4 .bg-2{
+  width:1300px;
+  height: 404px;
+  background: url('../imgs/bg-2.svg') center no-repeat;
+  position: absolute;
+  top: 24%;
+  left: 8%;
 }
 
 #section4 .title h3{
@@ -249,4 +259,82 @@ header nav ul li {
 
 #section4 .icon10{
   background: url('../imgs/icon10.svg') center no-repeat;
+}
+
+#section5 .circle{
+  width: 112px;
+  height: 112px;
+  padding: 5px;
+  margin: 0 auto 24px auto;
+  border-radius: 100%;
+  border: 3px dashed #C0C6D3;
+}
+
+#section5 .circle:hover{
+    border: 3px dashed #2F5BEA;
+}
+
+#section5 .circle .number{
+  width: 96px;
+  height: 96px;
+  background-color: #545F75;
+  border-radius: 100%;
+  text-align: center;
+  color: #fff;
+  font: 36px "SF-Bold";
+  line-height: 96px;
+}
+
+#section5 .item .itemTitle{
+  text-align: center;
+  color: #2C2E30;
+  font: 21px 'SF-Bold';
+  margin-bottom: 11px;
+}
+
+#section5 .item .arrow-right{
+  background: url('../imgs/arrow.svg') center no-repeat;
+  width: 32px;
+  height: 92px;
+  position: absolute;
+  top: 25%;
+  right: -24px;
+  opacity: 0.5;
+}
+
+#section5 .item .arrow-left{
+  background: url('../imgs/arrow-left.svg') center no-repeat;
+  width: 32px;
+  height: 92px;
+  position: absolute;
+  top: 25%;
+  right: -24px;
+  opacity: 0.5;
+}
+
+#section5 .item .arrow-down{
+  background: url('../imgs/arrow-down.svg') center no-repeat;
+  width: 92px;
+  height: 32px;
+  position: absolute;
+  bottom: 0;
+  right: 36%;
+  opacity: 0.5;
+}
+
+
+
+#section5 .text{
+  text-align: center;
+}
+
+#section5 .action{
+  padding-top: 64px;
+}
+
+#section5 .info{
+  margin-right: 24px;
+  color: #2C2E30;
+  font: 24px "SF-Bold";
+    line-height: 54px;
 }
