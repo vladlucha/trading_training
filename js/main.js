@@ -1,5 +1,3 @@
-
-
 // TOGGLE HAMBURGER & COLLAPSE NAV
 $('.nav-toggle').on('click', function() {
   $(this).toggleClass('open');
@@ -10,7 +8,6 @@ $('.menu-left a').on('click', function() {
   $('.nav-toggle').removeClass('open');
   $('.menu-left').removeClass('collapse');
 });
-
 
 // Hide Header on on scroll down
 var didScroll;
