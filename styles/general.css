@@ -6,17 +6,23 @@ body{
 /*typograpgy*/
 h1{
   color: #2C2E30;
-  font: 3.000em "SF-Black"
+  font: 3.000em "SF-Black";
 }
 
 h2{
   color: #2C2E30;
-  font: 2.125em "SF-Heavy"
+  font: 2.125em "SF-Heavy";
 }
 
 h3{
   color: #2C2E30;
-  font: 1.500em "SF-Bold"
+  font: 1.500em "SF-Bold";
+}
+
+h4{
+  color: #7E8085;
+  font: 1.313em "SF-Regular";
+  line-height: 34px;
 }
 
 /*button*/
@@ -62,4 +68,8 @@ input:focus{
   width: 32px;
   height: 32px;
   background-size: cover;
+}
+
+.vertical-align{
+  align-items: center;
 }
