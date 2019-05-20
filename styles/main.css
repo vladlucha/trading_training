@@ -69,7 +69,7 @@ header {
 
 header nav .logo {
   float: left;
-  background: url('../imgs/logo.svg') center no-repeat;
+  background: url('../imgs/logo.png') center no-repeat;
   width: 185px;
   height: 54px;
   background-size: cover;
@@ -430,6 +430,7 @@ header nav ul li {
   font-size: 60px;
   padding: 30px 0 34px 0;
   line-height: 82px;
+    font-family: 'Nato';
 }
 
 #section8 .blueTitlePrice{
@@ -437,6 +438,7 @@ header nav ul li {
   padding: 30px 0 34px 0;
   line-height: 82px;
   color: #2F5BEA;
+  font-family: 'Nato';
 }
 
 #section8 .subtitle{
