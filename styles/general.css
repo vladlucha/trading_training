@@ -47,7 +47,9 @@ button{
   font: 16px 'SF-Heavy';
   color: #fff;
   text-transform: uppercase;
-  border-color: #2F5BEA !important;
+  border: none;
+  box-shadow: none !important;
+  outline-color:#2F5BEA !important;
 }
 
 button:hover{
