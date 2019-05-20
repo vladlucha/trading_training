@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/media.css">
+    <link rel="stylesheet" href="styles/slick.css">
 
   <body>
     <header>
@@ -26,12 +27,12 @@
             <ul class="menu-left">
               <li><a href="#section2">О тренинге</a></li>
               <li><a href="#section3">Для кого</a></li>
-              <li><a href="#">План</a></li>
-              <li><a href="#">Отзывы</a></li>
-              <li><a href="#">Об авторе</a></li>
-              <li><a href="#">Стоимость</a></li>
-              <li><a href="#">Стримы</a></li>
-              <li><button>Записаться</button></li>
+              <li><a href="#section4">План</a></li>
+              <li><a href="#section5">Отзывы</a></li>
+              <li><a href="#section6">Об авторе</a></li>
+              <li><a href="#section7">Стоимость</a></li>
+              <li><a href="#section8">Стримы</a></li>
+              <li><button onclick="focusMethod()">Записаться</button></li>
             </ul>
           </div>
         </nav>
@@ -45,7 +46,7 @@
             <div class="info col-xs-12 col-lg-4">
               <h1>Скальпинг. <br> Начало. </h1>
               <h4>Тренинг начинается 29 апреля  <br> в 1200 и 1900 по МСК</h4>
-              <button>ЗАписаться на тренинг</button>
+              <button onclick="focusMethod()">ЗАписаться на тренинг</button>
             </div>
             <div class="video col-xs-12 col-lg-8">
               <div class="player">
@@ -65,7 +66,7 @@
             <h2>О тренинге</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-            <button>Записаться сейчас</button>
+            <button onclick="focusMethod()">Записаться сейчас</button>
           </div>
         </div>
       </div>
@@ -180,16 +181,18 @@
       </div>
     </div>
 
+
     <div class="container">
       <div class="line"></div>
     </div>
 
     <div id='section5'>
+      <div class="container">
       <div class="title col-lg-8 offset-lg-2">
         <h2>План тренинга</h2>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
       </div>
-      <div class="container">
+
         <div class="row">
           <div class="item col-lg-4">
             <div class="arrow-right d-none d-sm-block"></div>
@@ -252,7 +255,7 @@
           <div class="offset-lg-1 col-lg-7 offset-xs-0 action">
             <div class="row">
               <div class="info">Присоединяйтесь к нам уже сейчас!</div>
-              <button>Записаться</button>
+              <button onclick="focusMethod()">Записаться</button>
             </div>
           </div>
         </div>
@@ -266,11 +269,10 @@
         <h2>Отзывы</h2>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
       </div>
-    </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="item1 col-lg-4 col-xs-12">
+
+      <div class="row d-flex justify-content-between">
+        <div class="item1 col-lg-3 col-xs-12">
           <div class="text">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
           </div>
@@ -281,7 +283,7 @@
             </div>
           </div>
         </div>
-        <div class="item1 col-lg-4 col-xs-12">
+        <div class="item1 col-lg-3 col-xs-12">
           <div class="text">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
           </div>
@@ -292,7 +294,7 @@
             </div>
           </div>
         </div>
-        <div class="item1 col-lg-4 col-xs-12">
+        <div class="item1 col-lg-3 col-xs-12">
           <div class="text">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
           </div>
@@ -336,20 +338,118 @@
     </div>
   </div>
 
+  <div id="section8">
+
+    <div class="container">
+      <div class="title col-lg-8 offset-lg-2">
+        <h2>Курс: Скальпинг.</h2>
+        <p>На время предпродажи скидка 50%.
+          В случае возниквозникновения технических проблем 100% гарантия возврата денежных средств в течение
+          первой недели обучения.</p>
+      </div>
+
+      <div class="row d-flex justify-content-around">
+        <div class="price white mt-2 col-lg-5 col-xs-12">
+          <div class="head">
+            <div class="blueTitlePrice">30.000 ₽</div>
+            <p class="subtitle">Групповое обучение</p>
+          </div>
+          <div class="list">
+            <ul>
+              <li>Видео уроки</li>
+              <li>Домашние задания</li>
+              <li>Проверка домашних заданий, с возможностью обсуждения
+                  On-line чат в Skype</li>
+              <li>Дополнительные материалы к урокам</li>
+              <li>5 индивидуальных занятий по Skype, с закреплением материала (продолжительность одного занятия 1.5 часа)</li>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="price blue mt-2 col-lg-5 offset-r fg-1 col-xs-12">
+          <div class="head">
+            <div class="titlePrice">80.000 ₽</div>
+            <p class="subtitle">Групповое обучение</p>
+          </div>
+          <div class="list">
+            <ul>
+              <li>Видео уроки</li>
+              <li>Домашние задания</li>
+              <li>Проверка домашних заданий, с возможностью обсуждения
+                  On-line чат в Skype</li>
+              <li>Дополнительные материалы к урокам</li>
+              <li>5 индивидуальных занятий по Skype, с закреплением материала (продолжительность одного занятия 1.5 часа)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="section9">
+    <div class="container">
+      <div class="title col-lg-8 offset-lg-2 col-xs-12">
+        <h2>Примеры записей стримов</h2>
+      </div>
+    </div>
+
+    <div class="streams">
+        <iframe class="col-lg-6" width="100%" height="100%" border-radius='16px' src="https://www.youtube.com/embed/uXyy7lgDj9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="col-lg-6" width="100%" height="100%" border-radius='16px' src="https://www.youtube.com/embed/uXyy7lgDj9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="col-lg-6" width="100%" height="100%" border-radius='16px' src="https://www.youtube.com/embed/uXyy7lgDj9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="col-lg-6" width="100%" height="100%" border-radius='16px' src="https://www.youtube.com/embed/uXyy7lgDj9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="col-lg-6" width="100%" height="100%" border-radius='16px' src="https://www.youtube.com/embed/uXyy7lgDj9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+
   <div id='sectionForm'>
     <div class="container center">
       <h3>Зарегистрируйтесь на вебинар прямо сейчас!</h3>
       <div class="row forms">
-        <div class="col-lg-4"><input type="email" name="email" value="" placeholder='Введите ваш email'></div>
+        <div class="col-lg-4"><input type="email" name="email" value="" placeholder='Введите ваш email' id="myTextField"></div>
         <div class="col-lg-4"><input type="name" name="name" value=""placeholder='Введите ваше имя'></div>
         <div class="col-lg-4"><input type="tel" name="+" value=""placeholder='Введите ваш телефон'></div>
+              <button type="button" name="button">Зарегистрироваться</button>
       </div>
       <p>Регистрируюясь вы соглашаетесь с <a href="#">уловиями обработки данных</a></p>
-      <button type="button" name="button">Зарегистрироваться</button>
+
     </div>
-
-
   </div>
+
+  <footer>
+    <div class="container">
+      <p>© ИП Калинина Дарья Сергеевна</p>
+      <p>ОГРНИП 319631300054051</p>
+      <a href="">info@finansistcb.ru</a>
+      <div class="btns row-btn">
+        <a href='' class="btn social-vk"></a>
+        <a href='' class="btn social-tel"></a>
+        <a href='' class="btn social-fb"></a>
+      </div>
+
+      <div class="container">
+
+      <div class="row">
+
+      <div class="row left col-lg-8 col-xs-12 ">
+        <a href="#">Оферта</a>
+        <a href="#">Положение об обработке персональных данных</a>
+        <a href="#">Согласение на обработку  персональных данных</a>
+      </div>
+
+      <div class="right col-lg-4">
+        <div class="payment"></div>
+      </div>
+          </div>
+      </div>
+
+
+
+    </div>
+  </footer>
 
 
 
@@ -357,8 +457,9 @@
 
     <!--js-->
     <script src="js/jquery.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
-    </body>
+</body>
 
 
 

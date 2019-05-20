@@ -23,6 +23,7 @@ header nav ul li a { display: block;  padding: .425rem 0rem;
 
    button{
      width: 100%;
+     margin: 0 auto;
    }
 
    #section2{
@@ -59,6 +60,16 @@ header nav ul li a { display: block;  padding: .425rem 0rem;
    background-size: cover;
  }
 
+ #section8 {
+   background-color: #F6F8F9;
+   padding: 36px 0;
+   margin-bottom: 36px;
+ }
+
+ #section9 {
+   margin-bottom: 36px;
+ }
+
  #sectionForm{
    padding: 36px 0;
 
@@ -68,6 +79,24 @@ header nav ul li a { display: block;  padding: .425rem 0rem;
    color: #fff;
    text-align: center;
    margin-bottom: 36px;
+ }
+
+ footer .payment{
+   background: url('../imgs/payment.png') center no-repeat;
+   width: 214px;
+   height: 35.67px;
+   float: left;
+ }
+
+ footer .left a{
+   font-size: 14px;
+   margin-right: 8px;
+   color: #fff;
+   text-align: left;
+ }
+
+ footer .btns{
+   margin-bottom: 0px;
  }
 
    .line{
