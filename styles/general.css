@@ -39,7 +39,7 @@ h4{
 /*button*/
 button{
   padding: 18px 29px;
-  background-color: blue;
+  background-color: #2F5BEA;
   cursor: pointer;
   opacity: 0.8;
   transition: 0.3s;
@@ -47,6 +47,7 @@ button{
   font: 16px 'SF-Heavy';
   color: #fff;
   text-transform: uppercase;
+  border-color: #2F5BEA !important;
 }
 
 button:hover{
