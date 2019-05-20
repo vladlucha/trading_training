@@ -148,7 +148,7 @@ ul.menu-left:before {
   clear: both;
 }
 
-ul.menu-left.collapse { max-height: 25em !important; }
+ul.menu-left.collapse { max-height: 28em !important; }
 
 .nav-toggle {
   display: block;
